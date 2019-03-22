@@ -1,0 +1,73 @@
+5. Hola mundo con node.js
+
+ 5.1 Archivo hola.js -> img1.jpg
+ 5.2, 5.3, 5.4 	     -> img2.jpg
+
+ 5.5 Concluciones de lo visto:
+     - Nosotros estamos creando un servidor en el puerto 8080 y cuando el usuario acceda a ese puerto
+       recien nos devolvera el mensaje "Hola mundo!".
+
+ 5.6 Modificando el archivo hola.js -> img3.jpg
+ 5.7 Ejecutando el comando          -> img4.jpg
+ 
+ 5.8 Observaciones de lo visto:
+     - Cuando el usuario ingresa a dicho puerto se imprime en la consola "Conexion entrante" y cuando la pagina carga
+       aparece "Hola mundo"
+ 5.9 -> img5.jpg
+ 5.10 Observaciones de lo visto:
+     - Salio un error ya que estamos creando un bucle que nunca terminara ya que estamos ocupandp mucha memoria
+     - Error -> img6.jpg
+
+6. Leer archivo de servidor
+ 
+ 6.3 Obervaciones de lo visto:
+     - Basicamente esta leyendo el archivo html y lo esta poniendo en la pagina
+
+ 6.5 Diferencia entre readFileSync y readFile
+     - Basicamente readFile lee un archivo de forma asincrona y readFileSync de forma sincronica, ademas de que el
+       primero devuelve una llamada en 2 argumentos (err, data) y el otro solo devuelve el valor de cadena del enlace simbólico.
+
+7. Uso de la libreria HTTP
+ 
+ 7.3 Explique el error y lo que sucede
+     - El error se prolongo ya que no declaramos la variable "arreglo_parametros", esto se soluciona solo declandolo arriba como
+       un array vacio. Y el codigo esta leyendo el archivo form.html ademas de leer la url tambien con "?-&"
+
+ 7.5 Incluya ahora los valores de las siguientes variables al finalizar la ejecucion del archivo
+     Imagen -> img7.jpg
+
+     arreglo_parametros: 'nombre=batman', 'robin'
+     parametros        : 'nombre','robin'
+     valores           : 'batman',undefined
+
+ 7.6 Explique lo realizado
+     - Nosotros podemos podemos manipular los datos del url de la pagina
+ 
+ 8.4 Indique como mejoraria
+     - Podria ponerle un filtro para que me retorne solo variables especificas como int, float, strings, etc
+ 
+ 8.8 Agrege sus observaciones
+     - Esto puede ser util cuando queremos secciones de un cuerpo como la seccion de links, donde estos pueden 
+       ser reemplazadas facilmente
+ 
+Ejercicios de implementacion de modulos
+ 
+ 9.1 Imagen -> img8.jpg
+ 9.2 Imagen -> img9.jpg
+ 9.3 Imagen -> img10.jpg
+
+
+CONCLUCIONES:
+ - require nos permite abrir los archivos pero antes verificando que todos los datos esten correctamente
+ - Podemos separar en partes la url de una pagina para obtener sus respectivos datos
+ - Podemos reemplazar parametros dentro de un archivo html con {} y en el js ponemos solo replace
+ - La vercion LTS de nodejs es la mas recomedable ya que es la mas robusta en su tiempo
+ - Nosotros podemos leer el contenido de un archivo usando readFile
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
