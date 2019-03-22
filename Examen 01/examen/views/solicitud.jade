@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  head
+  #{title}
+  body
+  h1= title
+  p Si quiere hacer una reservacion , porfavor llenar la siguiente solicitud
+  p Nombre
+  input(type="text", placeholder="Ingrese su nombre")
+  p Apellido
+  input(type="text", placeholder="Ingrese su apellido")
+  p DNI
+  input(type="text", placeholder="Ingrese su DNI")
+  p Correo
+  input(type="text", placeholder="Ingrese su correo")
+  p
+  form(method="post")
+    input(type="submit", placeholder="Ingrese su correo", value="Enviar")
