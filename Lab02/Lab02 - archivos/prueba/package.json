@@ -1,0 +1,14 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "s",
+  "main": "index.js",
+  "scripts": {
+    "test": "s"
+  },
+  "author": "yo",
+  "license": "ISC",
+  "dependencies": {
+    "tecsup-dawa-bladimir-huanca": "0.0.1"
+  }
+}

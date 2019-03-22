@@ -1,0 +1,66 @@
+Identificacion de npm
+ 2.1 Captura de pantalla -> img1.jpg
+
+Creacion de package.json
+
+ 3.3 Pasos para la creacion de package.json
+     1. Poner en la consola npm init
+     2. Poner el nombre del proyecto
+     3. Poner la vercion del proyecto, en este caso sera "0.0.1"
+     4. Opcional poner una descripcion de este
+     5. Escojer el main, por defecto es el index.js pero lo podemos cambiar
+     6. Podemos poner un test command
+     7. Si queremos, podemos poner el repositorio git
+     8. Si queremos podemos agregarle una palabra clave a nuestro proyecto
+     9. Luego ponemos el author (nuestros nombres)
+     10. La licencia, por defecto estara en ISC
+     11. Una vez hecho estas configuraciones, nos aparecera el json para confirmar
+     12. Si esta todo bien, ponemos "yes" y se creara el package.json
+
+Instalacion de paquetes mediante NPM
+ 4.2 Captura de pantalla -> img2_2.jpg
+ 4.4 Explique lo que sucedio en el archivo package.json
+     - Captura de pantalla -> img3.jpg
+     - Se nos añadio una seccion de dependencias donde esa el underscore
+ 
+ 4.7 Interpretar
+     - Nos devuelte la lista para el encademantiento
+
+ 4.12 Explique el resultado obtenido
+      - Nosotros usamos la funcion filter si queremos filtrar los datos de algo, le pasamos el dato a filtrar
+        y luego pasamos todos los datos para que nos vote el resultado filtrado.
+
+ 5.5 Captura y explicacion
+     - Captura -> img4.jpg
+     - Por hacer
+
+Publicacion en NPM
+
+ 6.8 Explicacion del error
+     - Nos aparece ese error porque no creamos el package.json, solo debemos crearlo y descargara correctamente
+
+Entendimiento de ejecucion de funciones en JavaScript
+ 
+ 7.1 Explique su razonamiento
+     - Este codigo hace que todos los botones les agregemos una funcion que nos mostrara "You clicked element #",
+       + el numero de elemento, pero al poner la misma funcion en todos los elementos, esta se reemplazara por cada
+       iteracion que haga, como la primera seria elemento1, pero este se reemplazara por el 2 y asi sucesivamente/
+ 7.2 Por hacer
+ 
+ 7.3 El orden de ejecucion seria: 1-4-3-2, esto sucede ya la funcion setTimeout se toma un tiempo en ejecutar, y aunque
+     fuera de 0 segundos, se tomara un tiempo para ejecutar ese 0 segundos. Por eso primero se imprime lo de la consola
+     y despues lo que esta dentro de setTimeout.
+ 
+ 7.5 La utilidad mayormente de este codigo es que nos permite reducir el codigo y los casos en que se usaria es donde
+     la respuesta de cada condicion es igual.
+
+ 7.10 Este tipo de herencia nos permite ejecutar funciones de otra parte en nuestro codigo.
+
+Resolucion de problemas
+
+ 8.1 Imagen -> img6.jpg: Codigo optimizado
+
+ 8.3 Imagen -> img7.jpg
+
+ 8.4 Imagen -> img8.jpg
+

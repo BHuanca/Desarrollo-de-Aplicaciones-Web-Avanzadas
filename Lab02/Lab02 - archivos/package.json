@@ -1,0 +1,14 @@
+{
+  "name": "tecsup-dawa-bladimir-huanca",
+  "version": "0.0.1",
+  "description": "Laboratiorio 02 DAWA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bladimir Huanca Huarachi",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
+}
