@@ -1,0 +1,22 @@
+{
+  "name": "lab03",
+  "version": "1.0.0",
+  "description": "Lab 03 DAWA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BHuanca/Desarrollo-de-Aplicaciones-Web-Avanzadas.git"
+  },
+  "author": "Bladimir Huanca Huarachi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BHuanca/Desarrollo-de-Aplicaciones-Web-Avanzadas/issues"
+  },
+  "homepage": "https://github.com/BHuanca/Desarrollo-de-Aplicaciones-Web-Avanzadas#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
