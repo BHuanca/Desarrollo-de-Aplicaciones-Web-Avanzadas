@@ -6,8 +6,20 @@ block content
   body
   h1= title
   p Contamos con los siguientes destinos de viajes
-  div
-    p Peru
-    img.image(src='./images/img1.jpg' style="width: 40%")
-    p Francia
+  div(style="width: 100%")
+    a(style="width: 10%") Peru
+    br
+    img.image(src='./images/img1.jpg' style="width: 40%; float:left")
+    a(style="width: 10%") Francia
+    br
     img.image(src='./images/img2.jpg' style="width: 40%")
+  
+  table
+    tr Peru
+      br
+        td 
+          img.image(src='./images/img1.jpg' style="width: 40%")
+    tr Francia
+      br
+        td 
+          img.image(src='./images/img2.jpg' style="width: 40%")
