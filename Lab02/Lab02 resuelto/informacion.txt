@@ -64,3 +64,21 @@ Resolucion de problemas
 
  8.4 Imagen -> img8.jpg
 
+ 8.5 Imagen -> Por hacer
+
+ 8.6 Imagen -> img9.jpg
+
+ 8.7 Imagen -> img10.jpg
+
+Concluciones
+
+ 1. Podemos usar el map y el filter del underscore si queremos sacar datos de manera mas facil
+ 2. Para subir nuestros proyectos en npm, tenemos que registrarnos en esta pagina y validarnos con el comando 
+    npm adduser
+ 3. Javascript es tan rapido que hasta ignora las funciones de tiempo como elsetTimeout y ejecuta otras cosas
+    dentro del codigo
+ 4. La reduccion de codigo en nustros proyectos es de suma importancia, ya que si lo hacemos debidamente, otros
+    desarrolladores podran leerlo con facilidad y aprender mas de el
+ 5. La herencia en js es de suma importancia, ya que podemos utilizar las propiedades y valores entre los objetos
+    que nostros creamos
+
