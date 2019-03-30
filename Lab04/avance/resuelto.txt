@@ -1,0 +1,22 @@
+Configuracion de MongoDB
+
+ 3.5 Lineas CRUD
+     - Leer       : app.get('/proudcto', producto.show);
+     - Crear      : app.post('/producto', producto.create);
+     - Actualizar : app.post('/producto/update', producto.update);
+     - Borrar     : app.post('/producto/delete', producto.delete);
+
+ 3.9 Resultado de un GET
+     - Imagen: img1.jpg
+
+ 3.10 Prueba de operaciones
+      - Crear      : img2.jpg
+      - Leer       : img2_1.jpg
+      - Actualizar : img2_2.jpg
+      - Borrar     : img2_3.jpg
+
+ 3.15 Capturas
+      - Login: img3.jpg
+      - Table: img4.jpg
+
+
