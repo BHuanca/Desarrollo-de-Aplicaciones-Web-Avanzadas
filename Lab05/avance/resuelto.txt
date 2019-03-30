@@ -1,0 +1,7 @@
+Continuacion de laboratiorio anterior
+
+ 1.7 Captura del contenido: img1.pjg
+
+Creacion de registro con mongoose y socket.io
+
+ 2.7 Repuesta en la consola: img2.jpg
