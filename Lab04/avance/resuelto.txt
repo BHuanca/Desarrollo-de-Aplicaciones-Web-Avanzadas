@@ -19,4 +19,20 @@ Configuracion de MongoDB
       - Login: img3.jpg
       - Table: img4.jpg
 
+ 3.18 Captura: img5.jpg
 
+ Tarea
+  Imagenes: img6.jpg, img6_1, img6_2, img6_3, img6_3_1, img6_3_2
+
+ Concluciones
+
+  1. Para ordenar mejor los metodos HTTP, se le puede cambiar las rutas por x.show, x.create, etc
+  2. En este laboratiorio usamos la dependencia "body-parser" para obtener los datos en json, y para usar
+     un input, button, etc en el html tenemos que importar "bodyParser.urlencoded", sino nos saldra vacio
+     cuando buscamos "body.nombre", "body.pass"
+  3. Mongoose nos ofrece la configuracion de una forma mas atractiva ya que podemos colocar funciones propias
+     de mongodb en el codigo y sacar lo que queramos
+  4. Cada vez que insertamos un elmento nos inserta aparte "_v" y esto es la "versionKey" que contiene la
+     revisión interna del documento 
+  5. Si queremos importar estilos, imagenes u otras cosas en una vista, tenemos que importar primero el
+     express.static('public')
