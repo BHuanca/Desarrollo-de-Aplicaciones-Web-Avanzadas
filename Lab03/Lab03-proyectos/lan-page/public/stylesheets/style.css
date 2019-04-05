@@ -1,0 +1,229 @@
+/*
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}*/
+html{
+  min-height: 100%;
+  position: relative;
+}
+
+#cerve{
+  z-index: 1;
+  position: absolute;
+  margin: -1%;
+  width: 100.4%;
+  height: 63%;
+}
+
+.img{
+  z-index: 2;
+  position: absolute;
+  background-color: #000000;
+  margin: -1%;
+  width: 100.4%;
+  height: 63%;
+  opacity: 0.6;
+}
+
+#logo{
+  width: 20%;
+}
+
+#telefono{
+  position: absolute;
+  margin: 2% 0% 0% 61%;
+  width: 3%;
+
+}
+
+.cabeza{
+  width: 80%;
+  position: absolute;
+  margin: 0% 0% 5% 10%;
+  z-index: 3;
+}
+
+#cel{
+  color: white;
+  font-family: Verdana;
+  position: absolute;
+  margin: 2.2% 0% 0% 65%;
+  font-size: 150%;
+}
+
+.titulo{
+  z-index: 4;
+  position: absolute;
+  display: inline-block;
+  text-align:center;
+  margin: 9% 0% 5% 10%;
+  width: 80%;
+}
+
+#ti{
+  color: white;
+  font-family: Verdana;
+  font-size: 300%;
+}
+
+#sub{
+  color: white;
+  font-family: Verdana;
+  font-size: 150%;
+}
+
+/*-------------------------------------------------*/
+
+.formulario{
+  border: 1px solid #d9d9d9;
+  position: absolute;
+  z-index: 5;
+  height: 80%;
+  width: 27%;
+  margin: 23% 0% 0% 60%;
+  background-color: white;
+  border-radius: 2%;
+
+  display: inline-block;
+  text-align: center;
+}
+
+p{
+  font-size: 120%;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2{
+  margin-top: 10%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.input{
+  padding: 3%;
+  border-radius: 3%;
+  border: 2px solid #d9d9d9;
+  width: 75%;
+  font-size: 120%;
+}
+
+.input:focus{
+  border: 2px solid red;
+  transition: all .4s ease;
+}
+
+.select{
+  padding: 3%;
+  border-radius: 3%;
+  border: 2px solid #d9d9d9;
+  width: 82%;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+.boton{
+  padding: 3%;
+  width: 85%;
+  border-radius: 5px;
+  background-color: #e80000;
+  border: none;
+
+  color: white;
+  font-family: Verdana;
+  font-size: 150%;
+  cursor: pointer;
+}
+
+.boton:hover{
+  background: rgba(194, 17, 15, 1);
+  transition: all .4s ease;
+}
+
+/*-------------------------------------------------*/
+
+.sena, .sena1, .sena2{
+  position: absolute;
+  margin:2% 0% 0% 1%;
+  border: 3px solid black;
+  width: 10%;
+  height: 45%;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #4bc64f;
+}
+
+.text1{
+  position: absolute;
+  margin:35% 0% 0% 15%;
+  width: 35%;
+  height: 15%;
+}
+
+.texto1{
+  height: 88%;
+  margin: 5% 0% 0% 15%;
+}
+
+.text2{
+  position: absolute;
+  margin:43% 0% 0% 15%;
+  width: 35%;
+  height: 15%;
+}
+
+.text3{
+  position: absolute;
+  margin:51% 0% 0% 15%;
+  width: 35%;
+  height: 17%;
+}
+
+#mano{
+  margin-top: 8%;
+  width: 75%;
+}
+
+.h3{
+  font-family: Verdana;
+  line-height: 5px;
+}
+
+.des{
+  font-family: Verdana;
+  color: #333;
+  text-align: justify;
+}
+
+/*-------------------------------------------------*/
+
+.margen_copy{
+  margin-top: 70%;
+  margin-left: -1%;
+  position: absolute;
+  width: 100.4%;
+  height: 10.3%;
+  background: #2d2d2d;
+  text-align: center;
+}
+
+#copy{
+  font-size: 150%;
+  color: white;
+}
+
+#loader{
+  z-index: 6;
+  width: 15%;
+  position: relative;
+  display: none;
+}
+
+#entregar{
+  display: none;
+  background-color: #4de82e;
+  cursor: none;
+}

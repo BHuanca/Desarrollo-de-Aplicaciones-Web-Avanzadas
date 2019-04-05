@@ -25,24 +25,25 @@ module.exports = {
   },
   create: function(req, res) {
     var item = {
-        nombre: req.query.nombre,
-        descripcion: req.query.descripcion,
-        precio: req.query.precio
+        nombre: req.body.nombre,
+        descripcion: req.body.descripcion,
+        precio: req.body.precio
     };
     var nuevo = new prod_model(item).save();
-    res.send(nuevo);
+    res.render('producto',{title: 'Actualizar producto', tipo: "/producto/update", boton: "Grabar"});
   },
   update: function(req, res) {
-    prod_model.findOne({_id: req.query._id}, function(err, producto) {
-      producto.nombre = req.query.nombre;
-      producto.descripcion = req.query.descripcion;
-      producto.precio = req.query.precio;
+    prod_model.findOne({}, function(err, producto) {
+      producto.nombre = req.body.nombre;
+      producto.descripcion = req.body.descripcion;
+      producto.precio = req.body.precio;
       producto.save();
-      res.send(producto);
+      // res.send(producto);
+      res.render('producto',{title: 'Eliminar producto', tipo: "/producto/delete", boton: "Eliminar"});
     });
   },
   delete: function(req, res) {
-    prod_model.findOne({_id: req.query._id}, function(err, producto) {
+    prod_model.findOne({}, function(err, producto) {
       producto.remove();
       res.send({status: true});
     });

@@ -1,0 +1,22 @@
+Entendimiento de ejecucion de funciones en JavaScript
+ 
+ 2.13 Explicar
+      - En este codigo, queremos nostros obtener todos los metodos HTTP con una misma url, por ejemplo
+        en la url /comprar nosotros queremos el GET, POST, PUT y DELETE al mismo timepo por eso debemos
+        utilizar los middlewares para hacer esto posible
+
+ 2.14 La aplicacion HttpRequester ya no esta disponible en mozila por lo cual usamos PostMan que hace lo mismo
+
+Inicio de proyecto
+
+ 3.1 Landing Page: img1.jpg, img2.jpg
+
+Concluciones
+
+ 1. El aplicativo postman nos permite probar diferentes url y con sus respectivos metodos HTTP
+ 2. Podemos importar estilos, imagenes, scripts desde la carpeta public pero antes debemos declararlo express.static('public')
+ 3. Se puede devolver los diferentes tipos de errores de una pagina como el 404 o 500
+ 4. La creacion de prefijos de rutas es muy importante ya que nos sirve para el enmascaramiento de archivos
+ 5. Para ir a diferentes url solo debe estar el metodo GET y un send, si queremos meter estilos u otras cosas,
+    debemos crear una ruta y una vista para declarlo posteriormente en el app.js
+ 

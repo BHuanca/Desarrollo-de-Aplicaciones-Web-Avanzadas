@@ -1,0 +1,74 @@
+extends layout
+
+block content
+
+  head
+    meta(charset='utf-8')
+    title Empresa de cerveza
+    link(rel='stylesheet', href='./stylesheets/style.css')
+    script(type='text/javascript', src='./javascripts/jquery-3.3.1.min.js')
+    script(type='text/javascript', src='./javascripts/script.js')
+    
+  body
+    img#cerve(src='./images/cerveza_img.jpg')  
+    .img
+    .cabeza
+      img#logo(src='./images/logo.png')
+      img#telefono(src='./images/telefono.png')
+      span#cel 925-621-481
+    .titulo
+      h1#ti SPORT IS LIVE
+      span#sub Busca, alquila y paga por tus canchas favoritas
+
+    .formulario
+      form(action='index.html', method='post')
+        h2 Llene sus datos
+        p Para una prueba gratis, llene los siguientes datos y envielo
+        input.input(type='text', placeholder='Nombre')
+        br
+        br
+        input.input(type='text', placeholder='Apellidos')
+        br
+        br
+        input.input(type='text', placeholder='Email')
+        br
+        br
+        input.input(type='text', placeholder='Codigo promocional')
+        br
+        br
+        select.select
+          option(selected='') Seleccione su localidad
+          option(selected='') Arequipa
+          option(selected='') Apurimac
+          option(selected='') La libertad
+          option(selected='') Cajamarca
+          option(selected='') Junin
+          option(selected='') Otros
+        br
+        br
+        input#obtener.boton(type='button', value='Enviar formulario')
+        img#loader(src='./images/loader.gif')
+        input#entregar.boton(type='button', value='Entregado con Exito ✔')
+    .descripcion
+      .text1
+        .sena
+          img#mano(src='./images/mano.png')
+        .texto1
+          h3.h3 Busqueda de canchas
+          p.des Con nuestro servicio, puedes buscar cualquier cancha que este mas cercano a ti
+      .text2
+        .sena1
+          img#mano(src='./images/mano.png')
+        .texto1
+          h3.h3 Alquiler de campos deportivos
+          p.des Si necesitas un campo deportiva para practicar, jugar u otras cosas en estas pagina encontraras la cancha ideal
+      .text3
+        .sena2(style='height: 40%')
+          img#mano(src='./images/mano.png')
+        .texto1
+          h3.h3 Reservas de canchas
+          p.des
+            | Puedes hacer una reserva de tu cancha favorita y pagarlo con nuestra aplicacion movil o via web
+
+    .margen_copy
+      p#copy SacaPichana © 2019 - Todos los derechos reservados

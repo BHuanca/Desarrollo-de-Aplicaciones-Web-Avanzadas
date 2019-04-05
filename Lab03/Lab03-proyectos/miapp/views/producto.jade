@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Sistema
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+  body
+    block content
+      .main.container
+        .row
+          .col-md-6.col-md-offset-3
+            h1.display-4.m-b-2 #{title}
+            form(method='POST' action='#{tipo}')
+              div.form-group
+                label(for='nombre') Nombre:
+                input#nombre.form-control(type='text', name='nombre' placeholder='Ingrese el nombre')
+              div.form-group
+                label(for='descripcion') Descripcion:
+                input#descripcion.form-control(type='text', name='descripcion' placeholder='Ingrese la descripcion')
+              div.form-group
+                label(for='precio') Precio:
+                input#precio.form-control(type='text', name='precio' placeholder='Ingrese el precio')              
+              div.form-group
+                button.btn.btn-primary(types='submit') #{boton}
+                
+                  
+                
+          

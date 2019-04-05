@@ -6,7 +6,7 @@ var express = require('express'),
 //var path = require('path');
 
 //app.use(express.static(path.join(__dirname, 'public')));
-
+app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 
 app.set('view engine','jade');
@@ -19,9 +19,9 @@ app.get('/', function(req, res) {
   res.render('login');
 });*/
 
-app.get('/table', function(req, res) {
+/*app.get('/table', function(req, res) {
   res.render('table');
-});
+});*/
 
 app.get('/producto', producto.show);
 app.post('/producto', producto.create);
