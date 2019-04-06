@@ -5,3 +5,30 @@ Continuacion de laboratiorio anterior
 Creacion de registro con mongoose y socket.io
 
  2.7 Repuesta en la consola: img2.jpg
+ 2.13, 2.14 Imagen: img3.jpg, img3_1.jpg, img3_2.jpg
+
+Listado Inicial de informacion
+
+ 3.4 Imagen: img4.jpg
+ 3.7 Imagen: img5.jpg -> Ahora solo recarga una vez en una ventana ya que a esa es la unica que estamos
+                         mandando los datos
+
+Actualizar informacion en base de datos y en interfaz
+
+ 4.6 Imagen: im6.jpg
+ 5.5 Imagenes: img7.jpg, img7_1.jpg
+
+Tarea
+ - Por hacer
+
+Concluciones
+ 
+ 1. Para capturar un valor del formalario, necesitamos usar ".val()" propio de JQuery, y si todo esta correcto lo podemos 
+    emitir el metodo que se va a efectuar ya sea crear, actualizar o eliminar
+ 2. Las funciones que creamos es una serie de evenos que se dispararan cuando se haga una accion mas, como el de crear
+    si nosotros insertamos datos en el formulario, estos seran capturados por el val, luego veran si hay o no datos, luego
+    insertaran eso en la base de datos y finalmente lo mostrara en la ventana
+ 3. Nosotros podemos convertir los datos en JSON para que se nos haga mas facil modificar estos con la funcion JSON.stringify
+ 4. Cada metodo que usemos como crear, actualizar o eliminar tiene que ser representado en los modulos
+ 5. En mongoose cada accion que realizemos tiene que ser guardada con un "save()"
+
