@@ -1,0 +1,23 @@
+1. Configuracion inicial del proyecto
+    1.9 Vista: img1.jpg
+
+2. Agregando estilos a las vistas existentes
+    2.4 Vista mejorada: img2.jpg
+    2.6 Vista modificada: img3.jpg
+
+3. Agregando estilos al formulario de inicio
+    3.2 Vista del login: img4.jpg
+
+4. Vista por defecto y la vista de bienvenida
+    4.5 Vista de la bienvenida: bienvenida.gif
+
+Concluciones
+    1. Para darle mas intereaccion a la pagina, podemos usar bootstrap, ademas nos podemos guiar con su
+       documentacion oficial (react-bootstrap)
+    2. Cuando usamos esto, al momento de usar un subcomponente debemos poner un "." para que lo reconozca 
+    3. Hacer la pagina 404 es sencillo ya que solo creamos un Route sin path, esto quiere decir que si no
+       encuentra un Route que esta definido, entrara automaticamente al Route sin path
+    4. Usar el localStorage del navegador, nos puede ayudar para almacenar la informacion que queramos
+       obtener, en este caso seria el Nombre del usuario 
+    5. Al usar localStorage debemos eliminarlo ya que la informacion guardada se podria almacenar siempre y
+       cualquier otro usuario podria verla
