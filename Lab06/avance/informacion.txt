@@ -1,0 +1,20 @@
+Configuracion inicial del Proyecto
+ Instalacion de postman
+   2.5 Imagen: img1.jpg
+
+Conectar nuestro proyecto con la API
+ 7.4 Imagen del resultado del login: img2.jpg
+
+Ejercicio propuesto
+ 8.1 Por hacer
+
+Concluciones
+ 1. Validar un email con JavaScript es mas facil que hacerlo con otros medios ya que este nos brinda varias funcionalidades
+    y no tener que hacer un if y else para cada linea
+ 2. Se pude usar una ruta principal para que navegemos en ella, en este caso usamos "/api/user" y despues otras rutas como
+    signin y signup
+ 3. Algunas vercions de windows no funciona el process.env.JWT_SECRET por lo que podemos reemplazar esa linea por un texto
+    cualquiera y que nos envie el mensaje que queramos
+ 4. Los token que creamos nos serviran mucho para que podamos mantener sesion en un aplicaciones, u otro medio, ademas estos
+    pueden expirar un tiempo para volver iniciar sesion otra vez
+ 5. Conectarnos a una api con axios es muy facil  ua que solo debemos pasarle la ruta y sacar los datos que queramos de ella
