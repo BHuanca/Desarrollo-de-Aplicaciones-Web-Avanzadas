@@ -1,0 +1,15 @@
+Capturas de la pagina
+ Captura del chat: img1.jpg, img2.jpg
+ Captura del chat subido: img3.jpg
+
+Concluciones
+ 1. Para que nosotros podamos utilizar el avatar de gravatar, necesitamos cifrar nuestro correo, por eso
+    utilizamos el md5
+ 2. Nosotros podemos poner un header o un footer para que sea globales, en este caso utilizamos React-helmet
+    para poder modificar las cabeceras
+ 3. El uso de socket.io-client nos permite poder comunicarnos con otros abriendo el opensocket para asi
+    poder hablar
+ 4. Now.sh nos permite levantar un micro-servidor de forma facil para que podamos probar nuestras aplicaciones
+    y es muy facil de configurarlo
+ 5. En esta pagina nosotros podemos ver todos los proyectos que levantamos en este micro-servidor y las modificaciones
+    que se hicieron
