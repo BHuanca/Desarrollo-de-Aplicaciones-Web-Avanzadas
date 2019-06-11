@@ -4,9 +4,11 @@ const app = express(); // instanciamos una aplicacion
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 const bodyParser = require('body-parser');
+const logger = require('morgan');
 
 // configuramos nuestra app para user bodyParser()
 // el cual nos permitira obtener data enviada por post
+app.use(logger(':method :remote-addr :url :response-time'));
 app.use(bodyParser.urlencoded({ extended: true }));
 //bodyParser.urlencoded({ extended: false });
 
@@ -38,7 +40,7 @@ router.get('/', function(req, res) {
 });
 
 const userRouter = require('./routes/user');
-const fileRouter = require('./routes/file');
+const fileRouter = require('./routes/file.js');
 router.use('/user', userRouter);
 router.use('/file', fileRouter);
 
