@@ -1,0 +1,17 @@
+Interfaz Perfil: img1.jpg
+
+Interfaz y funcionalidad de Editar-Perfil: img2.jpg, img3.jpg
+
+Concluciones
+    1. Para que podamos ver el IP o el tiempo de respuesta, podemos usar morgan ya que es un
+       middleware que permite eso
+    2. No es recomendable usar el localStorage para que podamos guardar los datos, ya que otros
+       usuarios pueden manipularlos
+    3. Es recomendable agrupar las rutas que utilizaremos en nuestra aplicacion ya que con esto
+       nosotros podemos invocarlas de forma mas facil
+    5. El uso de axios es simple, en este caso nosotros solo utilizamos el "userId" del localStorage
+       y chancarle el dato que queramos con el metodo put
+    4. La pagina loading.io nos permite escojer una gran variedad de cargas con sus respectivo
+       codigo, en este caso nosotros creamos una variable loading para verificar la carga o no y
+       que aparesca este spinner
+    
