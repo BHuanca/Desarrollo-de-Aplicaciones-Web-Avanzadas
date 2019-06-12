@@ -1,0 +1,20 @@
+Rutas con permisos
+    Comentario: Con Redux nosotros ahora tenemos el control de las vistas que se pueden o no mostrar,
+                si el usuario no esta autenticado solo le mostrara el login y home, en caso contrario
+                le mostrara las demas vistas, ademas usar Redux es muy facil pero configurarlo es un
+                poco tedioso.
+
+Capturas del proyecto
+   Captura de entrada al chat sin haber iniciado sesion: img1.jpg
+   Captura del ciclo de vida Redux: img2.jpg 
+
+Concluciones
+    1. Para configurar la extencion de redux, necesitamos implementar la funcion composeEncharcers ya que
+       si no esta, no podremos acceder a la extencion de redux
+    2. Los reductores creados nos permiten ver el ciclo de vida que tiene nuestra pagina, asi como las
+       modificaciones que sufrieron estas
+    3. Redux es un poco dificil configurarlo al principio ya que tenemos que declarar varios elementos, pero
+       una vez echo esto, la utilizicacion es muy sencilla
+    4. Con esta herramienta nosotros controlaremos nuestra aplicacion, asi como las paginas que se pueden o 
+       no ver asi como los elementos que se muestran
+    5. El orden es muy importante en un proyecto, por eso necesitamos tener las funciones bien ordenadas
